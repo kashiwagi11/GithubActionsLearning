@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "fix": "prettier --write . && eslint --fix .",
+    "lint": "prettier --check . && eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "enquirer": "^2.3.6",
+    "sqlite3": "^5.1.4"
+  }
+}

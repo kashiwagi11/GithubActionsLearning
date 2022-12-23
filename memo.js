@@ -157,5 +157,5 @@ const memo = new Memo();
 if (typeof process.argv[3] === "undefined") {
   memo.exec(process.argv[2]);
 } else {
-  console.error("Usage: node memo.js <-l or -r or -d>");
+  console.error("Usage: node memo.js <-l or -r or -daa>");
 }
